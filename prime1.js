@@ -1,15 +1,15 @@
+
 let n=13;
 count=0;
 for(let i=1;i<=n;i++){
     
    if ((n%i==0) && (n%n==0)){
-       count++;
+       count++
    }
+}
    if (count>0){
       console.log("prime no.");
    }else
       console.log("Not prime no");
-   }   
-
-
+   }
    
